@@ -17,5 +17,7 @@ interface RepositoriSiswa {
 
 }
 
-
+class OfflineRepositoriSiswa(
+    private val siswaDao: SiswaDAO
+):
 
