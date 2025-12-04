@@ -19,3 +19,4 @@ class DetailViewModel (
 
     private val idSiswa: Int = checkNotNull(savedStateHandle[DestinasiDetailSiswa.itemIdArg])
 
+    val uiDetailState: StateFlow<DetailSiswaUiState> =
